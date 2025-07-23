@@ -7,8 +7,9 @@ from pathlib import Path
 import cv2
 from telegram import Bot
 from ultralytics import YOLO
-TOKEN   = "7640742166:AAFSUpbAW1GQJxvONTJPrTDRdZQjhe-bXIw"    # bot token
-CHAT_ID = 8103438068                                          # chat ID
+"paste your token and chat id below"
+TOKEN   = "paste_here_token"    # bot token
+CHAT_ID = paste here chatid                                          # chat ID
 ANIMAL_CLASSES = {"elephant", "tiger", "lion", "leopard"}     # what to get alert on
 COOLDOWN_SEC   = 30                                           # min seconds between pings
 MODEL_WEIGHTS  = "yolov8n.pt"                                 # auto‑downloads
