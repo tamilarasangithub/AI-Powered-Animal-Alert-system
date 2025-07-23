@@ -1,0 +1,4 @@
+ultralytics>=0.4.3
+opencv-python
+python-telegram-bot==20.8
+python-dotenv
